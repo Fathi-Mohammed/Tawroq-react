@@ -1,0 +1,90 @@
+@import '../../../Styles/main.scss';
+
+
+.nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  list-style: none;
+  transition: 0.5s;
+
+  @include sm {
+    position: fixed;
+    top: 0;
+    inset-inline-start: -100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100vh;
+    overflow-x: scroll;
+    width: 70%;
+    background-color: $primaryColor;
+    padding: 70px 20px;
+    padding-inline-end: 10px;
+    padding-bottom: 0;
+    color: #fff;
+    z-index: 9999;
+  }
+
+  .side_menu_logo {
+    display: none;
+
+    @include sm {
+      display: block;
+      filter: brightness(0) invert(1);
+    }
+  }
+}
+
+.active {
+  @include sm {
+    inset-inline-start: 0;
+  }
+}
+
+.overlay {
+  display: none;
+  transition: 0.5s;
+
+  @include sm {
+    display: block;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(#000, 0.6);
+    z-index: 999;
+  }
+}
+
+.close_btn {
+  display: none;
+
+  @include sm {
+    display: block;
+    position: absolute;
+    top: 20px;
+    inset-inline-end: 20px;
+    cursor: pointer;
+    font-size: 3rem;
+  }
+}
+
+.menu_btn {
+  cursor: pointer;
+  font-size: 3rem;
+  display: none;
+
+  @include sm {
+    display: block;
+    color: #fff;
+    background-color: $primaryColor;
+    width: 39px;
+    height: 39px;
+    border-radius: $mainBorderRadius;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+}

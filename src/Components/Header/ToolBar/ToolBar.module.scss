@@ -1,0 +1,51 @@
+@import '../../../Styles/main.scss';
+
+.toolBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-inline-start: auto ;
+  list-style: none;
+  gap: 1.5rem;
+
+  @include sm {
+    margin: 15px 0;
+    height: fit-content;
+    justify-content: flex-start;
+    min-width: 100%;
+    gap: 0;
+  }
+
+  .tololBar_item {
+    
+    @include sm {
+      padding: 0;
+      min-width: 50%;
+    }
+  }
+
+  // .header_button {
+  //   background-color: $primaryColor;
+  //   padding: 1rem;
+  //   height: 39px;
+  //   border: none;
+  //   color: #fff;
+  //   font-size: 1.6rem;
+  //   font-weight: 400;
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  //   border-radius: $mainBorderRadius;
+  //   cursor: pointer
+  // }
+
+  // .lang_button {
+  //   width: 39px;
+  // }
+
+  // .login_button {
+  //   background-color: transparent;
+  //   color: $headingMainColor;
+  // }
+}

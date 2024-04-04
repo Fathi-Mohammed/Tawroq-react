@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="144" height="144" viewBox="0 0 144 144">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_97" data-name="Ellipse 97" cx="72" cy="72" r="72" transform="translate(728 1772)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_9" data-name="Mask Group 9" transform="translate(-728 -1772)" clip-path="url(#clip-path)">
+    <path id="messages" d="M62.048,45.346,94.127,13.266A13,13,0,0,0,88.64,12H29.547a13,13,0,0,0-5.487,1.266L56.139,45.346A4.08,4.08,0,0,0,62.048,45.346Zm37.989-26.17L67.957,51.255a12.239,12.239,0,0,1-17.728,0h0L18.15,19.176a13,13,0,0,0-1.266,5.487v42.21A12.437,12.437,0,0,0,29.547,79.535H88.64A12.437,12.437,0,0,0,101.3,66.872V24.663A13,13,0,0,0,100.037,19.176Zm-28.28,68.8H21.1A12.437,12.437,0,0,1,8.442,75.314V41.547a3.988,3.988,0,0,0-4.221-4.221A3.988,3.988,0,0,0,0,41.547V75.314a20.9,20.9,0,0,0,21.1,21.1H71.756a4.221,4.221,0,0,0,0-8.442Z" transform="translate(745 1793)" fill="#cdaa6a"/>
+  </g>
+</svg>

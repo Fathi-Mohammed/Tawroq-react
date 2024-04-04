@@ -1,0 +1,17 @@
+@import '../../../Styles/main.scss';
+
+.logo {
+  img {
+    max-width: 170px;
+    max-height: 68px;
+    margin-inline-end: 5.7rem;
+
+    @include sm {
+      max-width: 110px;
+    }
+
+    @include xs {
+      max-width: 100px;
+    }
+  }
+}
